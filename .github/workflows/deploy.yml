@@ -45,6 +45,9 @@ jobs:
     needs: Build
 
     steps:
+      # (1) 기본 체크아웃
+      - name: Checkout
+        uses: actions/checkout@v3
     # (3) Gradle build (Test 제외)
 #    - name: Build with Gradle
 #      uses: gradle/gradle-build-action@0d13054264b0bb894ded474f08ebb30921341cee
