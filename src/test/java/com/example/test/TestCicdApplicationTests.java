@@ -15,10 +15,10 @@ class TestCicdApplicationTests {
         boolean a = true;
         Assertions.assertTrue(a);
     }
-//
-//    @Test void FailTest(){
-//        boolean a = true;
-//        Assertions.assertTrue(!a);
-//    }
+
+    @Test void FailTest(){
+        boolean a = true;
+        Assertions.assertTrue(!a);
+    }
 
 }
